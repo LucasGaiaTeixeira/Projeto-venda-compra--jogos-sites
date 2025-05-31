@@ -1,12 +1,38 @@
-.bara_superior{
-    background-color: #1b2838;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+    .barra_superior{
+        background-color: #424242;
+        padding: 10px 15px;   
+        right: 50px;
+        width: 100%;
+        position: relative;
+        right: 10px;
+        bottom: 0.8rem;
+        height: 40px;
+        font-size: 24px;
+    }
 
-.logo{
-    font-size: 24px;
-    
-}
+
+    .barra_superior img{
+        width: 40px;
+        height: auto;
+    }   
+
+    .menu{
+        display: flex;
+        gap: 50px;
+        margin-left: 70px;
+        transform: translateY(-38px);
+        color: black;
+
+    }
+
+    .menu a{
+        color: white;
+    }
+
+    .login{
+        font-size: small;
+        position: relative;
+        left: 200px;
+        bottom: 10px;
+
+    }
