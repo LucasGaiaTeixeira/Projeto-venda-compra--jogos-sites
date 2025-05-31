@@ -1,38 +1,152 @@
-    .barra_superior{
-        background-color: #424242;
-        padding: 10px 15px;   
-        right: 50px;
-        width: 100%;
-        position: relative;
-        right: 10px;
-        bottom: 0.8rem;
-        height: 40px;
-        font-size: 24px;
-    }
+body{
+    background-color: blue;
+}
+
+/* -----------------------------------------------------------*/
+
+.barra_superior{
+    background-color: #424242;
+    padding: 10px 15px;   
+   right: 50px;
+    width: 100%;
+    position: relative;
+    right: 10px;
+    bottom: 0.8rem;
+    height: 40px;
+    font-size: 24px;
+}
 
 
-    .barra_superior img{
-        width: 40px;
-        height: auto;
-    }   
+.barra_superior img{
+    width: 40px;
+    height: auto;
+}   
 
-    .menu{
-        display: flex;
-        gap: 50px;
-        margin-left: 70px;
-        transform: translateY(-38px);
-        color: black;
+.menu{
+    display: flex;
+    gap: 50px;
+    margin-left: 70px;
+    transform: translateY(-38px);
+    color: black;
+}
 
-    }
+.menu a{
+    color: white;
+}
 
-    .menu a{
-        color: white;
-    }
+/* -----------------------------------------------------------*/
 
-    .login{
-        font-size: small;
-        position: relative;
-        left: 200px;
-        bottom: 10px;
 
-    }
+.login{
+    font-size: small;
+    position: relative;
+    left: 200px;
+    bottom: 10px;
+}
+
+
+/* -----------------------------------------------------------*/
+
+.input text{
+    color: white;
+}
+
+/* -----------------------------------------------------------*/
+
+.texto_descubra{
+    font-size: 40px;
+    margin: 20px;
+    color: white;
+}
+
+
+.descubra_jogos{
+    display: flex;
+    gap: 3rem;
+    margin: 2rem;
+    padding-left: 0; 
+}
+
+.descubra_jogos article{
+    border: #424242;
+    padding: auto;
+    background-color: #424242;
+    color: white;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+
+.dragon_age{
+    width: 650px;
+    height: 650px;
+    border-radius: 5px;
+}
+
+.palia{
+    width: 650px;
+    height: 650px;
+    border-radius: 5px;
+}
+
+.tibia{
+    width: 650px;
+    height: 650px;
+    border-radius: 5px;
+}
+
+
+
+/* -----------------------------------------------------------*/
+
+.texto-jogos_gratis{
+    font-size: 50px;
+}
+
+.barra_jogos_gratis{
+    background-color: gray;
+    height: 800px;
+    width: 1905.4px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.imagem_jogos_gratis{
+    display: flex;
+    gap: 3rem;
+}
+
+.final_fantasy{
+    width: 600px;
+    height: 650px;
+    border-radius: 20px;
+}
+
+
+.black_desert{
+    width: 600x;
+    height: 650px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.wof{
+    width: 600px;
+    height: 650px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+
+/* -----------------------------------------------------------*/
+.futuramente{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
