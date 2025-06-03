@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Este é um site de jogos para "> <!--essa e a descrição do site quando compartilhado-->
+    <meta name="description" content="Este é um site para compra e venda de jogos."> <!--essa e a descrição do site quando compartilhado-->
     <meta name="keywords" content="Loja de jogos"> <!--essa tag seria para para alguem pesquisar o tipo de coisa que quer para achar como site no gooogle por exemplo-->
     <title>JumpGames</title>
     <link rel="stylesheet" href="../Css/Site_inicial.css">
@@ -17,11 +17,13 @@
    <div class="barra_superior">
         <img src="../arquivos/icones/icone_do_site.ico" alt="logo">
             <nav class="menu">
-                <a href="#">Loja</a>
+                <a href="Index.html">Loja</a>
                 <a href="#">Biblioteca</a>
                 <a href="#">Comunidade</a>
-                <a href="#">Usuario</a>
-                <a href="#" class="login">Iniciar Sessão</a>
+                <a href="Html/Pagina_Usuario.html">Usuario</a>
+                <a href="Html/Pagina_login.html" class="login">Iniciar Sessão</a>
+                <a href="Index.html" class="configuracoes"><img src="arquivos/fotos/icone user.jpeg" alt="Usuario" class="img_config"></a>
+                
                 
             </nav>
         
@@ -30,24 +32,37 @@
    <input type="Procure Aqui..." class="input">
 
    <section class="flex gap-4">
-    <img src="arquivos/fotos/the withcer 3 3.jpeg" alt=" foto principal.jpeg" class="rounded-3xl border-16 border-slate-800 w-[934.73px] h-[623px] object-cover">
-    <div>
+    <a href="Html/Pagina_The_witcher.html">
+    <img src="arquivos/fotos/the withcer 3 3.jpeg" alt=" foto principal.jpeg" class="rounded-3xl border-16 border-slate-800 w-[934.73px] h-[623px] object-cover cursor-pointer">
+    </a>
+    <div class="text_jogos_destaque">
+        <a href="Html/Pagina_The_witcher.html">
         <article>
-            <img src="arquivos/fotos/the withcer 3 3.jpeg" alt="the witcher 3.jpeg" class=" rounded-3xl border-1 w-[230px] h-[121px] object-cover">
-            <p>jogo base</p>
-            <h3>Dragon AGE 2</h3>
+            <img src="arquivos/fotos/the withcer 3 3.jpeg" alt="the witcher 3.jpeg" class=" rounded-3xl border-1 w-[230px] h-[121px] object-cover cursor-pointer background-color-#424242 background-color-#424242">
+            <div class="texto_jogos_destaque_the_witcher">
+                <p class="p_the_witcher">jogo base</p>
+                <h3>The Witcher 3</h3>
+            </div>
         </article>
+        </a>
+        <a href="Html/Pagina_skyrin.html">
         <article>
-            <img src="arquivos/fotos/skyrin2.jpeg" alt="Skyrin2.jpeg" class=" rounded-3xl border-1 w-[230px] h-[121px] object-cover">
-            <p>jogo base</p>
-            <h3>Skyrin: Elder Scrolls</h3>
+            <img src="arquivos/fotos/skyrin2.jpeg" alt="Skyrin2.jpeg" class=" rounded-3xl border-1 w-[230px] h-[121px] object-cover cursor-pointer">
+            <div class="texto_destaque_skyrin">
+                <p class="p_skyrin">jogo base</p>
+                <h3>Skyrin: Elder Scrolls</h3>
+            </div>    
         </article>
+        </a>
+        <a href="Html/Pagina_once_human.html">
         <article>
-            <img src="arquivos/fotos/once human.jpeg" alt="Once human.jpeg" class=" rounded-3xl w-[230px] h-[121px] object-cover">
-            <p>jogo base</p>
-            <h3>Once Human</h3>
+            <img src="arquivos/fotos/once human.jpeg" alt="Once human.jpeg" class=" rounded-3xl w-[230px] h-[121px] object-cover cursor-pointer">
+            <div class="texto_destaque_once_human">
+                <p class="p_once_human">jogo base</p>
+                <h3>Once Human</h3>
+            </div>
         </article>
-        
+        </a>
 
                 
     </div>
@@ -57,19 +72,25 @@
     <h1 class="texto_descubra"> Descubra algo novo ></h1>
     <div class="descubra_jogos">
         <article>
+            <a href="Html/Pagina_dragon_age.html">
             <img src="arquivos/fotos/dragon age.jpeg" alt="Dragon AGE 2.jpeg" class="dragon_age">
-            <p>jogo base</p>
-            <h3>Dragon Age 2</h3>
+                <p>jogo base</p>
+                <h3 class="h3_dragon_age">Dragon Age 2</h3>
+            </a>
         </article>
         <article>
-            <img src="arquivos/fotos/palia4.jpeg" alt="Palia 2.jpeg" class="palia">
-            <p>jogo base</p>
-            <h3>Palia</h3>
+            <a href="Html/Pagina_palia.html">
+            <img src="arquivos/fotos/Palia5.jpeg" alt="Palia.jpeg" class="palia">
+                <p>jogo base</p>
+                <h3 class="h3_palia">Palia</h3>
+            </a>
         </article>
         <article>
+            <a href="Html/Pagina_tibia.html">
             <img src="arquivos/fotos/tibia.jpeg" alt="Tibia.jpeg" class="tibia">
-            <p>jogo base</p>
-            <h3>Tibia</h3>
+                <p>jogo base</p>
+                <h3 class="h3_tibia">Tibia</h3>
+            </a>
         </article>
         
     </div>
@@ -79,19 +100,25 @@
     <h1 class="texto-jogos_gratis"> Jogos Gratis ></h1>
     <div class="imagem_jogos_gratis">
         <article>
+            <a href="Html/Pagina_black_desert.html">
             <img src="arquivos/fotos/black desert3.jpeg" alt="Black Desert.jpeg" class="black_desert">
-            <p>jogo base</p>
-            <h3>Black Desert</h3>
+                <p>jogo base</p>
+                <h3 class="h3_black_desert">Black Desert</h3>
+            </a>
         </article>
         <article>
+            <a href="Html/Pagina_final_fantasy_XV.html">
             <img src="arquivos/fotos/final fantasy.jpeg" alt="Final Fantasy XV.jpeg" class="final_fantasy">
-            <p>jogo base</p>
-            <h3>Final Fantasy XV</h3>
+                <p>jogo base</p>
+                <h3 class="h3_final_fantasy_xv">Final Fantasy XV</h3>
+            </a>
         </article>
         <article>
-            <img src="arquivos/fotos/word of warcraft3.jpeg" alt="Word of warcraft.jpeg" class="wof">
-            <p>jogos base</p>
-            <h3>Word of warcraft</h3>
+            <a href="Html/Pagina_world_of_warcraft.html">
+            <img src="arquivos/fotos/word of warcraft3.jpeg" alt="Word of warcraft.jpeg" class="world_of_warcraft">
+                <p>jogos base</p>
+                <h3 class="h3_word_of_warcraft">Word of warcraft</h3>
+            </a>
         </article>
         
     </div>
@@ -99,6 +126,16 @@
 
    <h3 class="futuramente">***Algo mais futuramente***</h3>
 
-    <script src="../Js/Site_inicial.js"></script>
+   
+   
+   
+   
+   
+   
+   <script src="../Js/Site_inicial.js"></script>
+
+
+
+
 </body>
 </html>

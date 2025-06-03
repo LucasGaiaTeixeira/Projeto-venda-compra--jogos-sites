@@ -1,33 +1,60 @@
 body{
-    background-color: blue;
+    background-color: #001753;
+}
+
+/* -----------------------------------------------------------*/
+
+.text_jogos_destaque{
+    
+    color: white;
+    font-size: 35px;
+    gap: 50px;
+    
+    
+}
+
+.texto_jogos_destaque_the_witcher{
+    background-color: #424242;
+    
+}
+
+.texto_destaque_skyrin{
+    background-color: #424242;
+}
+
+
+.texto_destaque_once_human{
+    background-color: #424242;
 }
 
 /* -----------------------------------------------------------*/
 
 .barra_superior{
     background-color: #424242;
-    padding: 10px 15px;   
-   right: 50px;
-    width: 100%;
+    padding: 0.625rem 0.938rem;   
+    right: 119.713rem;
+    width: 119.713rem;
     position: relative;
-    right: 10px;
+    right: 0.625rem;
     bottom: 0.8rem;
-    height: 40px;
-    font-size: 24px;
+    height: 4.688rem;
+    font-size: 1.5rem;
+
 }
 
 
 .barra_superior img{
-    width: 40px;
+    width: 2.5rem;
     height: auto;
+    margin-top: 0.938rem;
 }   
 
 .menu{
     display: flex;
-    gap: 50px;
-    margin-left: 70px;
+    gap: 3.125rem;
+    margin-left: 4.375rem;
     transform: translateY(-38px);
-    color: black;
+    
 }
 
 .menu a{
@@ -39,24 +66,38 @@ body{
 
 .login{
     font-size: small;
-    position: relative;
-    left: 200px;
-    bottom: 10px;
+    display: flex;
+    margin-left: 62.5rem;
+    
 }
 
+.configuracoes{
+    display: flex;
+    margin-left: 4.375rem;
+    margin-top: -1.25rem;
+    
+}
+
+.configuracoes img{
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 1.25rem;
+}
 
 /* -----------------------------------------------------------*/
 
 .input text{
     color: white;
+    background-color: black;
 }
 
 /* -----------------------------------------------------------*/
 
 .texto_descubra{
-    font-size: 40px;
-    margin: 20px;
+    font-size: 2.5rem;
+    margin: 1.25rem;
     color: white;
+    margin-top: 2.5rem;
 }
 
 
@@ -72,81 +113,116 @@ body{
     padding: auto;
     background-color: #424242;
     color: white;
-    padding: 10px;
-    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0);
+    padding: 0.625rem;
+    box-shadow: 0.313rem 0.313rem 0.313rem 0.313rem rgb(0, 0, 0);
     text-align: center;
-    border-radius: 5px;
+    border-radius: 0.313rem;
 }
 
 
 
 .dragon_age{
-    width: 650px;
-    height: 650px;
-    border-radius: 5px;
+    width: 40.625rem;
+    height: 40.625rem;
+    border-radius: 0.313rem;
+    cursor: pointer;
 }
 
 .palia{
-    width: 650px;
-    height: 650px;
-    border-radius: 5px;
+    width: 40.625rem;
+    height: 40.625rem;
+    border-radius: 0.313rem;
+    cursor: pointer;
 }
 
 .tibia{
-    width: 650px;
-    height: 650px;
-    border-radius: 5px;
+    width: 40.625rem;
+    height: 40.625rem;
+    border-radius: 0.313rem;
+    cursor: pointer;
 }
 
 
+.h3_tibia{
+    font-size: 2.5rem;
+}
+
+.h3_palia{
+    font-size: 2.5rem;
+}
+
+.h3_dragon_age{
+    font-size: 2.5rem;
+}
 
 /* -----------------------------------------------------------*/
 
 .texto-jogos_gratis{
-    font-size: 50px;
+    font-size: 3.125rem;
+    margin: 1.25rem;
 }
 
 .barra_jogos_gratis{
     background-color: gray;
-    height: 800px;
-    width: 1905.4px;
+    height: 53.125rem;
+    width: 119.088rem;
     text-align: center;
     color: white;
+    
+    box-shadow: 0.313rem 0.313rem 0.313rem 0.313rem rgb(0, 0, 0);
 }
 
 
 
 .imagem_jogos_gratis{
     display: flex;
-    gap: 3rem;
+    gap: 6rem;
+    margin-left: 1.25rem;
 }
 
 .final_fantasy{
-    width: 600px;
-    height: 650px;
-    border-radius: 20px;
+    width: 34.375rem;
+    height: 40.625rem;
+    border-radius: 1.25rem;
+    box-shadow: 0.313rem 0.313rem 0.313rem 0.006rem rgb(0,0,0);
+    cursor: pointer;
 }
 
 
 .black_desert{
-    width: 600x;
-    height: 650px;
-    border-radius: 20px;
+    width: 34.375rem;
+    height: 40.625rem;
+    border-radius: 1.25rem;
     object-fit: cover;
+    box-shadow: 0.313rem 0.313rem 0.313rem 0.006rem rgb(0,0,0);
+    cursor: pointer;
 }
 
-.wof{
-    width: 600px;
-    height: 650px;
-    border-radius: 20px;
+.world_of_warcraft{
+    width: 34.375rem;
+    height: 40.625rem;
+    border-radius: 1.25rem;
     object-fit: cover;
+    box-shadow: 0.313rem 0.313rem 0.313rem 0.006rem rgb(0,0,0);
+    cursor: pointer;
 }
 
+.h3_word_of_warcraft{
+    font-size: 2.5rem;
+}
+
+.h3_black_desert{
+    font-size: 2.5rem;
+}
+
+.h3_final_fantasy_xv{
+    font-size: 2.5rem;
+}
 
 /* -----------------------------------------------------------*/
 .futuramente{
     color: white;
-    font-size: 50px;
+    font-size: 3.125rem;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 6.25rem;
 }
