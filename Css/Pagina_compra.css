@@ -1,0 +1,64 @@
+.body{
+    background-color: #001753;
+}
+
+/* -----------------------------------------------------------*/
+
+.barra_superior{
+    background-color: #424242;
+    padding: 0.625rem 0.938rem;   
+    right: 119.713rem;
+    width: 119.713rem;
+    position: relative;
+    right: 0.625rem;
+    bottom: 0.8rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+
+}
+
+
+.barra_superior img{
+    width: 2.5rem;
+    height: auto;
+    margin-top: 0.60rem;
+}   
+
+.menu{
+    display: flex;
+    gap: 3.125rem;
+    margin-left: 4.375rem;
+    transform: translateY(-38px);
+    
+}
+
+.menu a{
+    color: white;
+}
+
+/* -----------------------------------------------------------*/
+
+
+.login{
+    font-size: small;
+    display: flex;
+    margin-left: 62.5rem;
+    margin-top: -0.8rem;
+}
+
+.configuracoes{
+    display: flex;
+    margin-left: 4.375rem;
+    margin-top: -1.25rem;
+    
+}
+
+.configuracoes img{
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 1.25rem;
+}
+
+/* -----------------------------------------------------------*/
+
+

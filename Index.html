@@ -6,7 +6,7 @@
     <meta name="description" content="Este é um site para compra e venda de jogos."> <!--essa e a descrição do site quando compartilhado-->
     <meta name="keywords" content="Loja de jogos"> <!--essa tag seria para para alguem pesquisar o tipo de coisa que quer para achar como site no gooogle por exemplo-->
     <title>JumpGames</title>
-    <link rel="stylesheet" href="../Css/Site_inicial.css">
+    <link rel="stylesheet" href="Css/Site_inicial.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="icon" href="arquivos/icones/icone_do_site.ico">
 
@@ -15,21 +15,21 @@
 <body>
     
    <div class="barra_superior">
-        <img src="../arquivos/icones/icone_do_site.ico" alt="logo">
+        <img src="arquivos/icones/icone_do_site.ico" alt="logo">
             <nav class="menu">
                 <a href="Index.html">Loja</a>
                 <a href="#">Biblioteca</a>
                 <a href="#">Comunidade</a>
                 <a href="Html/Pagina_Usuario.html">Usuario</a>
                 <a href="Html/Pagina_login.html" class="login">Iniciar Sessão</a>
-                <a href="Index.html" class="configuracoes"><img src="arquivos/fotos/icone user.jpeg" alt="Usuario" class="img_config"></a>
-                
+                <a href="Html/Pagina_login.html" class="configuracoes"><img src="arquivos/fotos/icone user.jpeg" alt="Usuario" class="img_config"></a>
                 
             </nav>
         
+           
    </div>
 
-   <input type="Procure Aqui..." class="input">
+   <input class="input" placeholder="Procure aqui...">
 
    <section class="flex gap-4">
     <a href="Html/Pagina_The_witcher.html">
@@ -38,28 +38,28 @@
     <div class="text_jogos_destaque">
         <a href="Html/Pagina_The_witcher.html">
         <article>
-            <img src="arquivos/fotos/the withcer 3 3.jpeg" alt="the witcher 3.jpeg" class=" rounded-3xl border-1 w-[230px] h-[121px] object-cover cursor-pointer background-color-#424242 background-color-#424242">
             <div class="texto_jogos_destaque_the_witcher">
-                <p class="p_the_witcher">jogo base</p>
+                <img src="arquivos/fotos/the withcer 3 3.jpeg" alt="the witcher 3.jpeg" class=" rounded-3xl border-1 w-[230px] h-[121px] object-cover cursor-pointer background-color-#424242 background-color-#424242">
                 <h3>The Witcher 3</h3>
+                <p >jogo base</p>
             </div>
         </article>
         </a>
         <a href="Html/Pagina_skyrin.html">
         <article>
-            <img src="arquivos/fotos/skyrin2.jpeg" alt="Skyrin2.jpeg" class=" rounded-3xl border-1 w-[230px] h-[121px] object-cover cursor-pointer">
             <div class="texto_destaque_skyrin">
-                <p class="p_skyrin">jogo base</p>
+                <img src="arquivos/fotos/skyrin2.jpeg" alt="Skyrin2.jpeg" class=" rounded-3xl border-1 w-[230px] h-[121px] object-cover cursor-pointer">
                 <h3>Skyrin: Elder Scrolls</h3>
+                <p>jogo base</p>
             </div>    
         </article>
         </a>
         <a href="Html/Pagina_once_human.html">
         <article>
-            <img src="arquivos/fotos/once human.jpeg" alt="Once human.jpeg" class=" rounded-3xl w-[230px] h-[121px] object-cover cursor-pointer">
             <div class="texto_destaque_once_human">
-                <p class="p_once_human">jogo base</p>
+                <img src="arquivos/fotos/once human.jpeg" alt="Once human.jpeg" class=" rounded-3xl w-[230px] h-[121px] object-cover cursor-pointer">
                 <h3>Once Human</h3>
+                <p>jogo base</p>
             </div>
         </article>
         </a>
@@ -124,7 +124,7 @@
     </div>
    </section>
 
-   <h3 class="futuramente">***Algo mais futuramente***</h3>
+   <h3 class="futuramente"><a href="Html/Pagina_compra.html">***Algo mais futuramente***</a></h3>
 
    
    
@@ -132,8 +132,10 @@
    
    
    
-   <script src="../Js/Site_inicial.js"></script>
-
+   
+   <script src="../Js/Site_inicial.js">
+        
+   </script>
 
 
 
