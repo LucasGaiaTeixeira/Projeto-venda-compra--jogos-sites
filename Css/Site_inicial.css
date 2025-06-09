@@ -1,286 +1,301 @@
-body{
-    background-image: url("../arquivos/gif/background3.gif");
-    width: 100%;
-    height: 100%;
-    
-}
-
-*{
-    box-sizing: border-box;
-}
-
-/* -----------------------------------------------------------*/
-
-.text_jogos_destaque{
-    
-    color: white;
-    font-size: 2.188rem;
-    gap: 3.125rem;
-    
-    
-}
-
-.texto_jogos_destaque_the_witcher{
-    background-color: #424242;
-    width: 40.625rem;
-    height: 9.375rem;
-    margin-bottom: 1.25rem;
-    padding: 0.625rem;
-    text-align: end;
-    border-radius: 1.25rem;
-}
-
-.texto_jogos_destaque_the_witcher p{
-    font-size: 1.125rem;    
-}
-
-.texto_jogos_destaque_the_witcher h3{
-    margin-top: -6.875rem;
-}
-
-.texto_destaque_skyrin{
-    background-color: #424242;
-    width: 40.625rem;
-    height: 9.375rem;
-    text-align: end;
-    margin-bottom: 1.25rem;
-    padding: 0.625rem;  
-    border-radius: 1.25rem;  
-}
-
-.texto_destaque_skyrin p{
-    font-size: 1.125rem;
-}
-
-.texto_destaque_skyrin h3{
-    margin-top: -6.875rem;
-}
-
-.texto_destaque_once_human{
-    background-color: #424242;
-    width: 40.625rem;
-    height: 9.375rem;
-    text-align: end;
-    padding: 0.625rem;
-    border-radius: 1.25rem;
-}
-
-.texto_destaque_once_human h3{
-    margin-top: -6.875rem;
-}
-
-.texto_destaque_once_human p{
-    font-size: 1.125rem;
-}
-/* -----------------------------------------------------------*/
-
-.barra_superior{
-    background-color: #424242;
-    padding: 0.625rem 0.938rem;   
-    right: 119.713rem;
-    width: 119.713rem;
-    position: relative;
-    right: 0.625rem;
-    bottom: 0.8rem;
-    height: 4.688rem;
-    font-size: 1.5rem;
-
-}
-
-
-.barra_superior img{
-    width: 2.5rem;
-    height: auto;
-    margin-top: 0.938rem;
-}   
-
-.menu{
-    display: flex;
-    gap: 3.125rem;
-    margin-left: 4.375rem;
-    transform: translateY(-38px);
-    
-}
-
-.menu a{
-    color: white;
-}
-
-/* -----------------------------------------------------------*/
-
-
-.login{
-    font-size: small;
-    display: flex;
-    margin-left: 62.5rem;
-    
-}
-
-.configuracoes{
-    display: flex;
-    margin-left: 4.375rem;
-    margin-top: -1.25rem;
-    
-}
-
-.configuracoes img{
-    width: 3.125rem;
-    height: 3.125rem;
-    border-radius: 1.25rem;
-}
-
-/* -----------------------------------------------------------*/
-
-.input{
-    display: flex;    
-    background-color: white;
-    width: 106.25rem;
-    height: 2.5rem;
-    margin-left: 3.125rem;
-    margin: 1.25rem;
-    border-radius: 1.25rem;
-    padding-left: 1.25rem;
-}
-
-/* -----------------------------------------------------------*/
-
-.texto_descubra{
-    display: flex;
-    font-size: 2.5rem;
-    margin: 1.25rem;
-    color: white;
-    margin-top: 2.5rem;
-}
-
-
-.descubra_jogos{
-    display: flex;
-    gap: 3rem;
-    margin: 2rem;
-    padding-left: 0; 
-}
-
-.descubra_jogos article{
-    border: #424242;
-    padding: auto;
-    background-color: #424242;
-    color: white;
-    padding: 0.625rem;
-    box-shadow: 0.313rem 0.313rem 0.313rem 0.313rem rgb(0, 0, 0);
-    text-align: center;
-    border-radius: 0.313rem;
-}
 
 
 
-.dragon_age{
-    width: 40.625rem;
-    height: 40.625rem;
-    border-radius: 0.313rem;
-    cursor: pointer;
-}
+    body{
+        background-image: url("../arquivos/gif/background3.gif");
+        width: 100%;
+        height: 100%;
+        
+    }
 
-.palia{
-    width: 40.625rem;
-    height: 40.625rem;
-    border-radius: 0.313rem;
-    cursor: pointer;
-}
+    *{
+        box-sizing: border-box;
+    }
 
-.tibia{
-    width: 40.625rem;
-    height: 40.625rem;
-    border-radius: 0.313rem;
-    cursor: pointer;
-}
+    /* -----------------------------------------------------------*/
+
+    .text_jogos_destaque{
+        
+        color: white;
+        font-size: 2.188rem;
+        gap: 3.125rem;
+        margin-right: 0.625rem;
+        margin: 10px;
+    }
+
+    .texto_jogos_destaque_the_witcher{
+        background-color: #424242;
+        width: 100%;
+        max-width: 40.625rem;
+        height: 9.375rem;
+        margin-bottom: 1.25rem;
+        padding: 0.625rem;
+        text-align: end;
+        border-radius: 1.25rem;
+    }
+
+    .texto_jogos_destaque_the_witcher p{
+        font-size: 1.125rem;    
+    }
+
+    .texto_jogos_destaque_the_witcher h3{
+        margin-top: -6.875rem;
+    }
+
+    .texto_destaque_skyrin{
+        background-color: #424242;
+        width: 100%;
+        max-width: 40.625rem;
+        height: 9.375rem;
+        text-align: end;
+        margin-bottom: 1.25rem;
+        padding: 0.625rem;  
+        border-radius: 1.25rem;  
+    }
+
+    .texto_destaque_skyrin p{
+        font-size: 1.125rem;
+    }
+
+    .texto_destaque_skyrin h3{
+        margin-top: -6.875rem;
+        margin-left: 390px;
+    }
+
+    .texto_destaque_once_human{
+        background-color: #424242;
+        width: 100%;
+        max-width: 40.625rem;
+        height: 9.375rem;
+        text-align: end;
+        padding: 0.625rem;
+        border-radius: 1.25rem;
+    }
+
+    .texto_destaque_once_human h3{
+        margin-top: -6.875rem;
+    }
+
+    .texto_destaque_once_human p{
+        font-size: 1.125rem;
+    }
+    /* -----------------------------------------------------------*/
+
+    .barra_superior{
+        background-color: #424242;
+        padding: 0.625rem 0.938rem;   
+        width: 100%;
+        position: fixed;
+        top: 0;
+        height: 3.7rem;
+        font-size: 1.5rem;
+        
+    }
 
 
-.h3_tibia{
-    font-size: 2.5rem;
-}
+    .barra_superior img{
+        width: 2.5rem;
+        height: auto;
+        margin-top: 2px;
+    }   
 
-.h3_palia{
-    font-size: 2.5rem;
-}
+    .menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 4.375rem;
+        margin-top: -45px;
+    }
 
-.h3_dragon_age{
-    font-size: 2.5rem;
-}
+    .menu a{
+        color: white;
+    }
 
-/* -----------------------------------------------------------*/
-
-.texto-jogos_gratis{
-    font-size: 3.125rem;
-    margin: 1.25rem;
-}
-
-.barra_jogos_gratis{
-    
-    background-color: gray;
-    height: 53.125rem;
-    width: 119.088rem;
-    text-align: center;
-    color: white;
-    
-    box-shadow: 0.313rem 0.313rem 0.313rem 0.313rem rgb(0, 0, 0);
-}
+    /* -----------------------------------------------------------*/
 
 
+    .login{
+        font-size: small;
+        display: flex;
+        margin-left: 62.5rem;
+        font-size: 12px;
+        margin-top: -30px;
+        
+    }
 
-.imagem_jogos_gratis{
-    display: flex;
-    gap: 6rem;
-    margin-left: 1.25rem;
-}
+    .configuracoes{
+        display: flex;
+        margin-left: 4.375rem;
+        margin-top: -1.25rem;
+        
+    }
 
-.final_fantasy{
-    display: flex;
-    width: 34.375rem;
-    height: 40.625rem;
-    border-radius: 1.25rem;
-    box-shadow: 0.313rem 0.313rem 0.313rem 0.006rem rgb(0,0,0);
-    cursor: pointer;
-}
+    .configuracoes img{
+        width: 3.125rem;
+        height: 3.125rem;
+        border-radius: 1.25rem;
+        margin-top: 20px;
+    }
+
+    /* -----------------------------------------------------------*/
+
+    .input{
+        display: flex;    
+        background-color: white;
+        width: 90%;
+        height: 2.5rem;
+        margin-left: 3.125rem;
+        margin-top: 90px;
+        border-radius: 1.25rem;
+        padding-left: 1.25rem;
+        margin-left: 5px;
+        
+    }
+
+    /* -----------------------------------------------------------*/
+
+    .texto_descubra{
+        display: flex;
+        font-size: 2.5rem;
+        margin: 1.25rem;
+        color: white;
+        margin-top: 2.5rem;
+    }
 
 
-.black_desert{
-    display: flex;
-    width: 34.375rem;
-    height: 40.625rem;
-    border-radius: 1.25rem;
-    object-fit: cover;
-    box-shadow: 0.313rem 0.313rem 0.313rem 0.006rem rgb(0,0,0);
-    cursor: pointer;
-}
+    .descubra_jogos{
+        display: flex;
+        
+        gap: 3rem;
+        margin: 2rem;
+        padding-left: 0; 
+    }
 
-.world_of_warcraft{
-    display: flex;
-    width: 34.375rem;
-    height: 40.625rem;
-    border-radius: 1.25rem;
-    object-fit: cover;
-    box-shadow: 0.313rem 0.313rem 0.313rem 0.006rem rgb(0,0,0);
-    cursor: pointer;
-}
+    .descubra_jogos article{
+        border: #424242;
+        padding: auto;
+        background-color: #424242;
+        color: white;
+        padding: 0.625rem;
+        box-shadow: 0.313rem 0.313rem 0.313rem 0.313rem rgb(0, 0, 0);
+        text-align: center;
+        border-radius: 0.313rem;
+    }
 
-.h3_word_of_warcraft{
-    font-size: 2.5rem;
-}
 
-.h3_black_desert{
-    font-size: 2.5rem;
-}
 
-.h3_final_fantasy_xv{
-    font-size: 2.5rem;
-}
+    .dragon_age{
+        width: 40.625rem;
+        height: 40.625rem;
+        border-radius: 0.313rem;
+        cursor: pointer;
+    }
 
-/* -----------------------------------------------------------*/
-.futuramente{
-    display: flex;
-    color: white;
-    font-size: 3.125rem;
-    text-align: center;
-    margin-top: 6.25rem;
-    margin-left: 630px;
-}
+    .palia{
+        width: 40.625rem;
+        height: 40.625rem;
+        border-radius: 0.313rem;
+        cursor: pointer;
+    }
+
+    .tibia{
+        width: 40.625rem;
+        height: 40.625rem;
+        border-radius: 0.313rem;
+        cursor: pointer;
+    }
+
+
+    .h3_tibia{
+        font-size: 2.5rem;
+    }
+
+    .h3_palia{
+        font-size: 2.5rem;
+    }
+
+    .h3_dragon_age{
+        font-size: 2.5rem;
+    }
+
+    /* -----------------------------------------------------------*/
+
+    .texto-jogos_gratis{
+        
+        font-size: 3.125rem;
+        margin: 1.25rem;
+        text-align: center;
+    }
+
+    .barra_jogos_gratis{
+        
+        background-color: gray;
+        height: 53.125rem;
+        width: 100%;
+        max-width: 1910px;
+        text-align: center;
+        color: white;
+        
+        box-shadow: 0.313rem 0.313rem 0.313rem 0.313rem rgb(0, 0, 0);
+    }
+
+
+
+    .imagem_jogos_gratis{
+        display: flex;
+        gap: 6rem;
+        margin-left: 1.25rem;
+    }
+
+    .final_fantasy{
+        display: flex;
+        width: 34.375rem;
+        height: 40.625rem;
+        border-radius: 1.25rem;
+        box-shadow: 0.313rem 0.313rem 0.313rem 0.006rem rgb(0,0,0);
+        cursor: pointer;
+    }
+
+
+    .black_desert{
+        display: flex;
+        width: 34.375rem;
+        height: 40.625rem;
+        border-radius: 1.25rem;
+        object-fit: cover;
+        box-shadow: 0.313rem 0.313rem 0.313rem 0.006rem rgb(0,0,0);
+        cursor: pointer;
+    }
+
+    .world_of_warcraft{
+        display: flex;
+        width: 34.375rem;
+        height: 40.625rem;
+        border-radius: 1.25rem;
+        object-fit: cover;
+        box-shadow: 0.313rem 0.313rem 0.313rem 0.006rem rgb(0,0,0);
+        cursor: pointer;
+    }
+
+    .h3_word_of_warcraft{
+        font-size: 2.5rem;
+    }
+
+    .h3_black_desert{
+        font-size: 2.5rem;
+    }
+
+    .h3_final_fantasy_xv{
+        font-size: 2.5rem;
+    }
+
+    /* -----------------------------------------------------------*/
+    .futuramente{
+        display: flex;
+        color: white;
+        font-size: 3.125rem;
+        text-align: center;
+        margin-top: 6.25rem;
+        margin-left: 630px;
+    }
+
