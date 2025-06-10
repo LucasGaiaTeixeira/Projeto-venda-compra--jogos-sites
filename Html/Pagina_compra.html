@@ -7,11 +7,52 @@
     <title>JumpGames</title>
 </head>
 <body>
-    <div>
-        <nav>
-            <a href="../Index.html"> <img src="../arquivos/icones/icone_do_site.ico" alt="icone do site" class="icone"></a>
-        </nav>
-    </div>
-    
+    <nav class="nav-bar">
+        <a href="../Index.html" class="volta_index"><img src="../arquivos/fotos/seta_esquerda.png"></a>
+        <a href="../Html/Pagina_Usuario.html" class="foto_perfil"><img src="../arquivos/fotos/icone user.jpeg"></a>
+    </nav>
+
+    <section class="conteudo">
+        <div class="blocos">
+            <img src="../arquivos/fotos/the withcer 3 3.jpeg" alt="The Witcher 3" class="foto_jogo">
+            <div class="info-jogo">
+                <h1>The Witcher 3 : Wild Hunt</h1>
+                <h2 class="preco">R$79,90</h2>
+                <div class="botoes">
+                    <button class="btn"><a href="../Index.html" class="btn_color">adicionar</a></button>
+                    <span>|</span>
+                    <button class="btn"><a href="../Index.html" class="btn_color">Remover</a></button>
+                </div>
+
+                <div class="menu-container">
+                    <button id="menu-btn">
+                        <span id="texto-alteravel">Para minha conta</span>
+                        <span class="seta">▼</span>
+                    </button>
+                    <div id="dropdown-menu">
+                        <p class="opcao" onclick="mudarTexto('Para minha conta')">Para minha conta</p>
+                        <p class="opcao" onclick="mudarTexto('Para conta de amigo')">Para conta de amigo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="blocos2">
+            <h3><span class="texto-total">Total Estimado:</span> <span class="preco">R$79,90</span></h3>
+        </div>
+
+        <div class="blocos3">
+            <p>O imposto sobre a venda será calculado durante o checkout, se aplicável.</p>
+        </div>
+    </section>
+
+
+    <div class="botao-container">
+        
+        <button class="confirmar-compra"><a href="comprando.html">Comfirmar Compra</a></button>
+    </div>  
+
+
+    <script src="../Js/Pagina_compra.js"></script>
 </body>
 </html>

@@ -1,17 +1,183 @@
-    
-    body{
-        background-image: url("../arquivos/gif/background3.gif");
-        max-height: 100%;
-        max-width: 100%;
-        margin: 0;
-        padding: 0;
-    }
+/*  Configuração geral */
+body {
+    background-image: url("../arquivos/gif/background3.gif");
+    margin: 0;
+    padding: 0;
+}
 
-    /* ------------------------------------------------------------------------------------------*/
+/*  Barra de navegação */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #424242;
+}
 
-   .icone{
-    width: 5%;
-   }
+/* 🔹 Ícones */
+.volta_index, .foto_perfil {
+    width: 50px;
+    height: 50px;
+}
 
-    
-    
+.volta_index img, .foto_perfil img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.foto_perfil img{
+    margin-left: -20px;
+}
+
+/*  Seção principal */
+.conteudo {
+    margin-top: 80px; /* Para evitar sobreposição com a barra de navegação */
+}
+
+/*  Bloco do jogo */
+.blocos {
+    display: flex;
+    align-items: center;
+    background-color: #424242;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+/*  Imagem do jogo */
+.foto_jogo {
+    width: 50%;
+    border-radius: 10px;
+}
+
+/*  Informações */
+.info-jogo {
+    padding-left: 20px;
+    color: white;
+}
+
+/*  Botões */
+.botoes {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: #1f1a1a;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn_color{
+    color: rgb(187, 156, 156);
+    text-decoration: none;
+}
+
+/*  Menu suspenso */
+.menu-container {
+    margin-top: 20px;
+    position: relative;
+}
+
+#menu-btn {
+    background-color: #1f1a1a;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    height: 45px;
+}
+
+.seta {
+    margin-left: 5px;
+}
+
+#dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #333;
+    color: white;
+    padding: 10px;
+    display: none;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+.opcao {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.opcao:hover {
+    background: #555;
+}
+
+/* Total estimado */
+.blocos2 {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #424242;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.texto-total {
+    margin-right: 10px;
+    color: wheat;
+}
+
+.preco {
+    font-weight: bold;
+    color: #dadada;
+}
+
+/* 🔹 Informação de imposto */
+.blocos3 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+/*  Botão de finalizar compra */
+.botao-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.confirmar-compra {
+    background-color: #1f1a1a;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 250px; /* Define um tamanho fixo */
+    transition: background 0.3s ease-in-out;
+}
+
+.confirmar-compra:hover {
+    background-color: #333; /* Efeito ao passar o mouse */
+}
+
+
+.confirmar-compra a{
+    color: white;
+    text-decoration: none;
+}

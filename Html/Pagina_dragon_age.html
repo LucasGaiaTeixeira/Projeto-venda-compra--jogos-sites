@@ -4,8 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../Css/dragonAge.css">
 </head>
 <body>
     Dragon Age
+
+
+
+    <div class="menu-container">
+    <button id="menu-btn">
+        <span id="texto-alteravel">Para minha conta</span>
+        <span class="seta">▼</span>
+    </button>
+    <div id="dropdown-menu" class="hidden">
+        <p class="opcao" onclick="mudarTexto('Para minha conta')">Para minha conta</p>
+        <p class="opcao" onclick="mudarTexto('Para conta de amigo')">Para conta de amigo</p>
+    </div>
+</div>
+
+
+<script>
+    function mudarTexto(novoTexto) {
+    document.getElementById("texto-alteravel").innerText = novoTexto;
+    document.getElementById("dropdown-menu").style.display = "none"; // Fecha o menu
+}
+
+document.getElementById("menu-btn").addEventListener("click", function() {
+    let menu = document.getElementById("dropdown-menu");
+    menu.style.display = menu.style.display === "none" ? "block" : "none"; // Alterna visibilidade
+});
+
+</script>
+
 </body>
 </html>
