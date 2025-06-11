@@ -314,6 +314,11 @@ header {
     text-align: center;
 }
 
+.cart-btn a{
+    text-decoration: none;
+    color: white;
+}
+
 .cart-btn:hover {
     background-color: #417a9b;
 }
