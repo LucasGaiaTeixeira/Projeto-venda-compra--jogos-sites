@@ -1,0 +1,359 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dce0e6;
+    color: #000;
+    width: 100%; /* Ocupar toda a largura */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrumar {
+    background-color: #BFB8B8;
+    padding: 20px;
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-color: #2b2b2b;
+    padding: 15px;
+    color: white;
+    width: 100%;
+}
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.top-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.top-nav li a{
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none; 
+    color: inherit;
+}
+
+.top-nav input[type="search"] {
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    width: 200px;
+}
+
+/* Layout principal */
+.main-layout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.logo{
+
+    display: flex;
+    align-items:center;
+}
+.game-section {
+    background-color: #194AA6; /* azul escuro semelhante ao Steam */
+    padding: 20px;
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; /* Força layout vertical */
+    padding-left: 400px;
+}
+
+.game-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.game-content {
+    display: flex;
+    flex-direction: row; /* Coloca o conteúdo na vertical */
+    align-items: center;
+    gap: 20px;
+    background-color: #091427;
+    padding: 15px;
+    border-radius: 8px;
+    width: 75%;
+}
+.game-content * .logo{
+    width: 100%;
+}
+.main-image {
+    width: 100%;
+    border: 2px solid #000;
+    margin-bottom: 10px;
+}
+
+.thumbnails-carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.thumbnails-carousel img {
+    width: 180px;
+    height: auto;
+    border-radius: 4px;
+    cursor: pointer;
+    flex-shrink: 0;
+    border: 2px solid transparent;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.thumbnails-carousel img:hover {
+    transform: scale(1.05);
+    border-color: #194AA6;
+}
+
+.game-description {
+    position: relative;
+    color: white;
+    padding: 15px; /* Reduzir o padding */
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.game-description .logo {
+    width: 100%; /* Aumentar largura para ocupar todo o espaço */
+    height: 200px; /* Ajustar altura para cobrir completamente */
+    object-fit: contain; /* Mostrar a imagem inteira sem cortar */
+    margin-bottom: 10px; /* Espaço entre a imagem e o texto */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.game-description p {
+    font-size: 14px;
+    margin: 10px 0; /* Ajustar margens do texto */
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.game-description ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.game-description li {
+    margin-bottom: 5px;
+}
+
+.game-description li span {
+    font-weight: bold;
+    color: white;
+}
+
+.purchase-options {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+    padding-left: 600px;
+}
+
+.option {
+    display: flex;
+    flex-direction: row;
+    background-color: #6C6C6C; /* Fundo cinza */
+    padding: 15px;
+    border-radius: 8px;
+    width: 70%;
+}
+
+.option-text  a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none; 
+    color: inherit;
+}
+
+.option-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+     padding-left: 90px;
+}
+
+.price {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+/* Estilo para a seção 'Acerca desse jogo' */
+.about-section {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 1700px;
+    margin: 20px auto;
+}
+
+.about-section h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.about-section h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000000;
+    text-align: justify;
+}
+
+/* Estilo para a seção 'Requisitos do Sistema' */
+.requirements-section {
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.requirements-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.requirements {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.requirements div {
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1 1 45%; /* Ajuste dinâmico para metade do espaço */
+}
+
+.requirements h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.requirements ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.requirements li {
+    font-size: 14px;
+    color: #000000;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Ícones ou bullets customizados */
+.requirements li::before {
+    content: "✔"; /* Substitua por ícone de sua escolha */
+    color: #17425c;
+    font-weight: bold;
+}
+
+
+.cart-btn {
+    background-color: #00ff00;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.cart-btn:hover {
+    background-color: #417a9b;
+}
+
+.game-info {
+    background-color:#BFB8B8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.languages table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.languages th,
+.languages td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.languages th {
+    background-color: #ddd;
+}
+.organizar {
+  background-color: #BFB8B8;
+display: flex ;
+align-items: row;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #2b2b2b;
+    color: white;
+    width: 100%;
+    margin-top: 30px;
+}
