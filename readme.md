@@ -67,3 +67,5 @@
 <p> e na pagina final esta funcionando o menu de compra para minha conta ou para conta de um amigo</p>
 <p> PS: Não fizemos muita coisa, porque teria que ter mais paginas funcionando</p>
 
+para acesso ao site.
+link: https://thriving-lokum-e5ba14.netlify.app/
